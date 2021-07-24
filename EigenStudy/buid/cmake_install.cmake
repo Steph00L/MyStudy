@@ -1,4 +1,4 @@
-# Install script for directory: /home/lcx/git_t2/EigenStudy
+# Install script for directory: /home/lcx/git_t2/MyStudy/EigenStudy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lcx/git_t2/EigenStudy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lcx/git_t2/MyStudy/EigenStudy/buid/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

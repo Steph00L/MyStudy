@@ -1,3 +1,0 @@
-/home/lcx/git_t2/EigenStudy/build/CMakeFiles/rebuild_cache.dir
-/home/lcx/git_t2/EigenStudy/build/CMakeFiles/eigentest.dir
-/home/lcx/git_t2/EigenStudy/build/CMakeFiles/edit_cache.dir

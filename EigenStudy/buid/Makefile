@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lcx/git_t2/EigenStudy
+CMAKE_SOURCE_DIR = /home/lcx/git_t2/MyStudy/EigenStudy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lcx/git_t2/EigenStudy/build
+CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/buid
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/EigenStudy/build/CMakeFiles /home/lcx/git_t2/EigenStudy/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/EigenStudy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
