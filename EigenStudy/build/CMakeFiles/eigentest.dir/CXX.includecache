@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lcx/git_t2/EigenStudy/eigentest.cpp
+iostream
+-
+eigen3/Eigen/Dense
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+
