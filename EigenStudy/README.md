@@ -1,22 +1,33 @@
 # EigenStudyProject
-A project that includes basic skills of Eigen.
 
+A project that includes basic skills of Eigen3.
 
+## Dependency
 
-Just do :
+- [Git](https://git-scm.com/) (tested with Ubuntu 18.04)
+  ```
+  sudo apt-get install git
+  ```
+- [Eigen3](https://eigen.tuxfamily.org/index.php?title=Main_Page)
+  ```
+  sudo apt-get install libeigen3-dev 
+  ```
+## Compile
 
-$ git clone https://github.com/Steph00L/SimpleGitTest.git
+You can use the following commands to download and compile the package.
 
-$ cd EigenStudy
+  ```
+  git clone https://github.com/Steph00L/MyStudy.git
+  cd EigenStudy
+  mkdir build
+  cd build
+  cmake ..
+  make -j12   ("-jx" is depending your PC.)
+  ```
 
-$ mkdir build
+## Run
 
-$ cd build
-
-$ cmake ..
-
-$ make -j12   ("-jx" is depending your PC.)
-
-$ cd ../bin
-
-$ ./eigentest
+  ```
+  cd EigenStudy/bin
+  ./eigentest
+  ```
