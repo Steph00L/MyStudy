@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lcx/git_t2/MyStudy/EigenStudy/eigentest.cpp" "/home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles/eigentest.dir/eigentest.cpp.o"
+  "/home/lcx/git_t2/MyStudy/EigenStudy/src/eigentest.cpp" "/home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles/eigentest.dir/src/eigentest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/lcx/git_t2/MyStudy/EigenStudy/eigentest.cpp
+/home/lcx/git_t2/MyStudy/EigenStudy/src/eigentest.cpp
+utility.h
+/home/lcx/git_t2/MyStudy/EigenStudy/src/utility.h
+eigen3/Eigen/Geometry
+-
+
+/home/lcx/git_t2/MyStudy/EigenStudy/src/utility.h
 iostream
 -
 eigen3/Eigen/Dense
 -
 eigen3/Eigen/Core
--
-eigen3/Eigen/Geometry
 -
 

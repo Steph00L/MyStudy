@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/eigentest.dir/eigentest.cpp.o"
+  "CMakeFiles/eigentest.dir/src/eigentest.cpp.o"
   "../bin/eigentest.pdb"
   "../bin/eigentest"
 )

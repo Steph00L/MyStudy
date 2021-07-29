@@ -22,7 +22,7 @@ You can use the following commands to download and compile the package.
   mkdir build
   cd build
   cmake ..
-  make -j12   ("-jx" is depending your PC.)
+  make -j12   ("-jx" is depending on your PC.)
   ```
 
 ## Run

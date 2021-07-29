@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/lcx/git_t2/MyStudy/EigenStudy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/buid
+CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/eigentest.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/buid
 CMakeFiles/eigentest.dir/all:
 	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/depend
 	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles --progress-num=1,2 "Built target eigentest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles --progress-num=1,2 "Built target eigentest"
 .PHONY : CMakeFiles/eigentest.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/eigentest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/eigentest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eigentest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles 0
 .PHONY : CMakeFiles/eigentest.dir/rule
 
 # Convenience name for target.

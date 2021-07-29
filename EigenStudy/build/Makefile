@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/lcx/git_t2/MyStudy/EigenStudy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/buid
+CMAKE_BINARY_DIR = /home/lcx/git_t2/MyStudy/EigenStudy/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles /home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/buid/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lcx/git_t2/MyStudy/EigenStudy/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ eigentest/fast:
 	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/build
 .PHONY : eigentest/fast
 
-eigentest.o: eigentest.cpp.o
+src/eigentest.o: src/eigentest.cpp.o
 
-.PHONY : eigentest.o
+.PHONY : src/eigentest.o
 
 # target to build an object file
-eigentest.cpp.o:
-	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/eigentest.cpp.o
-.PHONY : eigentest.cpp.o
+src/eigentest.cpp.o:
+	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/src/eigentest.cpp.o
+.PHONY : src/eigentest.cpp.o
 
-eigentest.i: eigentest.cpp.i
+src/eigentest.i: src/eigentest.cpp.i
 
-.PHONY : eigentest.i
+.PHONY : src/eigentest.i
 
 # target to preprocess a source file
-eigentest.cpp.i:
-	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/eigentest.cpp.i
-.PHONY : eigentest.cpp.i
+src/eigentest.cpp.i:
+	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/src/eigentest.cpp.i
+.PHONY : src/eigentest.cpp.i
 
-eigentest.s: eigentest.cpp.s
+src/eigentest.s: src/eigentest.cpp.s
 
-.PHONY : eigentest.s
+.PHONY : src/eigentest.s
 
 # target to generate assembly for a file
-eigentest.cpp.s:
-	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/eigentest.cpp.s
-.PHONY : eigentest.cpp.s
+src/eigentest.cpp.s:
+	$(MAKE) -f CMakeFiles/eigentest.dir/build.make CMakeFiles/eigentest.dir/src/eigentest.cpp.s
+.PHONY : src/eigentest.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... eigentest"
 	@echo "... edit_cache"
-	@echo "... eigentest.o"
-	@echo "... eigentest.i"
-	@echo "... eigentest.s"
+	@echo "... src/eigentest.o"
+	@echo "... src/eigentest.i"
+	@echo "... src/eigentest.s"
 .PHONY : help
 
 

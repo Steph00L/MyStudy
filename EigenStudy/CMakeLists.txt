@@ -7,7 +7,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
 find_package(Eigen3 REQUIRED)
 
-#set(EIGEN3_INCLUDE_DIRS "usr/include/eigen3")
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-add_executable(eigentest eigentest.cpp)
+add_executable(eigentest src/eigentest.cpp)
+
+
