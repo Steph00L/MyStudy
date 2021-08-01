@@ -11,5 +11,6 @@
 using namespace std;
 
 //......
+typedef Eigen::Vector3d EV3; 
 
 #endif

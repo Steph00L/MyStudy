@@ -23,7 +23,7 @@ int main()
     //Eigen::Matrix3d m_33 = Eigen::Matrix3d::Identity();
 
     //3×1向量（矩阵）,并初始化为零 
-    Eigen::Vector3d v_31 = Eigen::Vector3d::Zero();
+    EV3 v_31 = EV3::Zero();
     //同样的，等价于
     //v_31.setZero();
 
@@ -31,4 +31,12 @@ int main()
     cout << "m_33:\n" << m_33 << "\n" << endl;
     cout << "v_31:\n" << v_31 << "\n" << endl;
 
+    cout << "****************************************" << endl;
+    EV3 v1, v2, v3, v4;
+    v1.setIdentity();
+    v2 << 2, 2, 2;
+    v3 = m_33 * v1;
+    v4 = (v1 + v2 + v3) / 3;
+    cout << "v1:\n" << v1 << "\n" << endl; 
+    cout << "v4:\n" << v4 << "\n" << endl;   
 }
