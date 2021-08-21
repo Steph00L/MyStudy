@@ -14,4 +14,4 @@ See [EigenStudy/README.md](https://github.com/Steph00L/MyStudy/blob/main/EigenSt
 
 ## C++ in VIO
 
-See [EigenStudy/README.md](https://github.com/Steph00L/MyStudy/blob/main/EigenStudy/README.md) for detials.
+See [CplusInVio/Maptest/README.md](https://github.com/Steph00L/MyStudy/blob/main/CplusInVio/MapTest/README.md) for detials.
