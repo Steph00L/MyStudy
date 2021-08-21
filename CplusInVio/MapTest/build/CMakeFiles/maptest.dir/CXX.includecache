@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lcx/git_t2/MyStudy/CplusInVio/MapTest/src/maptest.cpp
+iostream
+-
+map
+-
+vector
+-
+random
+-
+chrono
+-
+
